@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+    <session-factory>
+        <mapping class="edu.sjsu.cmpe275.project.entity.UserEntity" />
+        <mapping class="edu.sjsu.cmpe275.project.entity.ProductEntity" />
+        <mapping class="edu.sjsu.cmpe275.project.entity.CartEntity" />
+        <mapping class="edu.sjsu.cmpe275.project.entity.OrderHistory" />
+	<mapping class="edu.sjsu.cmpe275.project.entity.ReviewEntity" />
+    </session-factory>
+</hibernate-configuration>
